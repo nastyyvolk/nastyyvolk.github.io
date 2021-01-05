@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+    <link rel="stylesheet" href="./resourses/css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+    <nav>
+        <ul>
+            <li> <a href=""> Home </a></li>
+            <li> <a href="">HTML cheatsheets </a></li>
+            <li> <a href="">CSS cheatsheets </a></li>
+            <li> <a href="">Tutorials </a></li>
+        </ul>
+    </nav>
+    
+    
+
+
+        <!-- Banner -->
+        <div class="banner">
+        <img  src=".\resourses\images\locating-web-elements-selenium-1024x576-1.jpg.pagespeed.ce.XxRySezXJf.jpg" alt="Html logo">
+        <h1 class="priority1"> FORMS </h1>
+        </div>
+    </header>
+    
+    <main>
+
+        <!-- table 1 Main tags -->
+    <h2> Form tags </h2>
+    <table class="table1">
+        <thead>
+            <th> Tag </th>
+            <th> Description</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="first-col"> &lt;form&gt;</td>
+                <td class="second-col"> The wrapper element for all HTML forms. </td>
+            </tr>
+            <tr>
+                <td class="first-col"> &lt;input&gt; </td>
+                <td class="second-col"> Creates a single input item. </td>
+            </tr>
+            <tr>
+                <td class="first-col"> &lt;textarea&gt;</td>
+                <td class="second-col">Creates a text-box for multi-line input. </td>
+            </tr>
+            <tr>
+                <td class="first-col"> &lt;select&gt; </td>
+                <td class="second-col"> Creates a dropdown list. </td>
+            </tr>
+            <tr>
+                <td class="first-col"> &lt;datalist&gt; </td>
+                <td class="second-col"> Creates a list of data that shown as a dropdown, although allows users to write alternative inputs as
+                    well. </td>
+            </tr>
+            <tr>
+                <td class="first-col"> &lt;option&gt;</td>
+                <td class="second-col"> Creates an option in the dropdown list or datalist. <br> Note that inside &lt;select&gt; tag option
+                    needs a<em> closing </em> tag, but in &lt;datalist&gt; it is an <em>empty</em> tag. </td>
+            </tr>
+            <tr>
+                <td class="first-col"> &lt;label&gt; </td>
+                <td class="second-col"> Creates a label for a form input. </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- table 2 Attributes  -->
+    <h2> Form attributes</h2>
+    <table class="table2">
+        <thead>
+            <th> Attribute </th>
+            <th> Value </th>
+            <th> Description </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="first-col"> &lt;form&gt; action= </td>
+                <td class="second-col"> "/file.html" </td>
+                <td class="third-col"> Information filled in the form is passed to the source which is named in the action attribute. </td>
+            </tr>
+            <tr>
+                <td class="first-col"> &lt;form&gt; method= </td>
+                <td class="second-col"> POST</td>
+                <td  class="third-col"> Used for long forms. May contain sensitive data. Adds or deletes information from a database. </td>
+            </tr>
+            <tr>
+                <td class="first-col">&lt;form &gt; method=</td>
+                <td class="second-col"> GET</td>
+                <td  class="third-col"> Used for short forms. No data should be added or deleted from a database. </td>
+            </tr>
+            <tr>
+                <td class="first-col"> required </td>
+                <td class="second-col"> - </td>
+                <td class="third-col"> Specifies that the field must include a value. </td>
+            </tr>
+            <tr>
+                <td class="first-col"> name </td>
+                <td class="second-col"> Custom </td>
+                <td class="third-col"> Used to save user's data in a database. </td>
+            </tr>
+            <tr>
+                <td class="first-col"> placeholder </td>
+                <td class="second-col"> Custom </td>
+                <td class="third-col"> Renders as a disappearing text inside the input area. </td>
+            </tr>
+            <tr>
+                <td class="first-col"> maxlength </td>
+                <td class="second-col"> Custom </td>
+                <td class="third-col"> Sets maximum length of the input. </td>
+            </tr>
+            <tr>
+                <td class="first-col"> minlength </td>
+                <td class="second-col"> Custom </td>
+                <td class="third-col"> Sets minimum length of the input. </td>
+            </tr>
+            <tr>
+                <td class="first-col"> pattern </td>
+                <td class="second-col"> [A-Za-z]{3} (RegEx) </td>
+                <td class="third-col"> Uses a regular expression to validate the value of the input, when the form is submitted. </td>
+            
+            </tr>
+  
+        </tbody>
+    </table>
+    
+
+    <!-- table 3 input values  -->
+    <h2 > Types of &lt;input&gt; </h2>
+    <table class="table3">
+        <thead>
+            <th> Input type value</th>
+            <th> Description </th>
+            <th> Required attributes </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="first-col"> text</td>
+                <td class="second-col"> Creates a short input area. </td>
+                <td class="third-col"> id (for label) <br>
+                    name (for storage)</td>
+            </tr>
+            <tr>
+                <td class="first-col"> password </td>
+                <td class="second-col"> Creates a single row input field which censores text inside the field. </td>
+                <td class="third-col"> id (for label) <br>
+                    name (for storage) </td>
+            </tr>
+            <tr>
+                <td class="first-col"> range </td>
+                <td class="second-col"> Creates a slider between a minimum and a maximum value. </td>
+                <td class="third-col"> id (for label) <br>
+                name (for storage) <br> min, max, step </td>
+            </tr>
+            <tr>
+                <td class="first-col"> radio </td>
+                <td class="second-col"> Renders a single radio button. All radio buttons are given the same name attribute value. Only a
+                single option can be chosen. </td>
+                <td class="third-col"> id (for label) <br>
+                name (to group answers) <br>
+            value (to indentificate the chosen answer) </td>
+            </tr>
+            <tr>
+                <td class="first-col"> checkbox </td>
+                <td class="second-col"> Renders a single chexbox. Multiple checkboxes can be selected for the same topic. </td>
+                <td class="third-col"> id (for label) <br>
+                name (to group answers) <br>
+                value (to indentificate the chosen answer) </td>
+            </tr>
+            <tr>
+                <td class="first-col"> number </td>
+                <td class="second-col"> Creates a single row input to enter numbers. </td>
+                <td class="third-col"> id (for label) <br>
+                name (for storage) </td>
+            </tr>
+            <tr>
+                <td class="first-col"> submit </td>
+                <td class="second-col"> Creates a submit button. </td>
+                <td class="third-col"> value (text on the button) </td>
+            </tr>
+            
+        </tbody>
+    </table>
+    </main>
+
+
+    <!-- footer  -->
+    <footer>
+
+    
+    <nav>
+        <ul>
+            <li> <a href=""> Home </a></li>
+            <li> <a href="">HTML cheatsheets </a></li>
+            <li> <a href="">CSS cheatsheets </a></li>
+            <li> <a href="">Tutorials </a></li>
+        </ul>
+    </nav>
+    </footer>
+ </body>
+</html>

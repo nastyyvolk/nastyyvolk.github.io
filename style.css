@@ -1,0 +1,128 @@
+/* universal styles */
+
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p,
+li {
+  font-size: 18px;
+}
+body {
+  background-color: #f67c01;
+  padding: 0 70px;
+}
+
+main {
+  background-color: palegoldenrod;
+  padding: 5px 100px 75px 100px;
+  margin: 50px 0;
+  text-align: center;
+}
+h2 {
+  font-family: "Abril fatface", Garamond, serif;
+  font-size: 50px;
+  word-spacing: 0.3em;
+}
+
+/* navigation */
+
+header nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: palegoldenrod;
+  padding: 10px 10px;
+  filter: drop-shadow(4px 4px 4px palegoldenrod);
+}
+header nav li {
+  display: inline-block;
+}
+header nav a {
+  text-decoration: none;
+  color: black;
+  font-family: "Abril fatface", serif;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 0 50px;
+  text-align: center;
+}
+
+/* banner */
+
+header .banner {
+  background-color: black;
+  padding: 160px 50px 50px 50px;
+  text-align: center;
+}
+header img {
+  width: 300px;
+}
+.priority1 {
+  color: white;
+  font-weight: 300;
+  font-family: Futura;
+}
+
+/* table styles */
+table {
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+th {
+  background-color: #f67c01;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.first-col {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.second-col {
+  border: 4px;
+  background-color: gray;
+  text-align: left;
+  padding-left: 50px;
+}
+.table2 .second-col {
+  text-align: center;
+  padding-left: 15px;
+}
+
+.third-col {
+  background-color: lightgrey;
+  text-align: left;
+  padding-left: 50px;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+  font-family: Garamond, serif;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
+footer nav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Abril fatface", serif;
+  font-size: 25px;
+}
+
+footer nav li {
+  padding: 0 40px;
+}
