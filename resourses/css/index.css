@@ -1,0 +1,224 @@
+/* Universal Styles*/
+html {
+  font-size: 16px;
+}
+.content {
+  width: 70%;
+  margin: auto;
+}
+
+/* text styles*/
+h4,
+h3,
+h2,
+h1,
+.name {
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  margin-left: 2rem;
+}
+
+h4,
+.name {
+  font-style: italic;
+  font-size: 1.35rem;
+  font-weight: 500;
+}
+p,
+li,
+h5 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+h3 {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  font-weight: 500;
+}
+
+.center {
+  text-align: center;
+}
+a {
+  padding: 0.3rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* navigation*/
+
+nav {
+  position: fixed;
+  top: 0;
+  background-color: #fdf1e7;
+  width: 100%;
+  z-index: 10;
+  padding-right: 10px;
+  box-shadow: 0 0 7px 0px black;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
+#logo {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0 auto;
+}
+/* hero */
+.hero {
+  text-align: center;
+  margin: 50px 0;
+  height: 700px;
+  background-image: url(../images/larisa-birta-slbOcNlWNHA-unsplash.jpg);
+  background-size: cover;
+}
+
+.hero img {
+  max-width: 70%;
+}
+
+.hero h2 {
+  position: absolute;
+  top: 600px;
+  text-align: left;
+  right: 20px;
+  color: white;
+  font-weight: 500;
+  font-style: italic;
+}
+
+/* why we */
+
+.pros {
+  display: flex;
+  background-color: #f7f7f8;
+  padding: 2rem;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  min-width: 400px;
+}
+
+.pro1 {
+  flex-basis: 30%;
+  margin: 0.5rem 1rem;
+  border: grey dotted 2px;
+  padding: 1rem;
+}
+
+.middle {
+  flex-shrink: 4;
+}
+
+/* our team */
+.our_team {
+  margin: 3rem auto;
+}
+
+.people {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.person {
+  width: 400px;
+}
+
+.person img {
+  max-width: 100%;
+  height: auto;
+}
+
+.name {
+  background-color: lavenderblush;
+  padding: 0.3rem;
+  margin: 0.2rem 0;
+}
+
+/* process */
+.process {
+  margin: 5rem 0;
+}
+.plan {
+  display: flex;
+  flex-basis: 25%;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.plan1 {
+  background-color: lightgrey;
+  padding: 1rem;
+  height: 350px;
+  max-width: 320px;
+  min-width: 150px;
+}
+
+.process img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.sh2 {
+  flex-shrink: 4;
+}
+
+/* quotes */
+.quote {
+  background-color: #fdf1e7;
+  padding: 3rem;
+}
+
+.quote p {
+  font-style: italic;
+  font-family: "playfair display";
+  font-size: 1.45rem;
+}
+
+.quote .sign {
+  font-size: 1.3rem;
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: right;
+}
+
+/* contacts */
+#contacts {
+  background-color: #fdf1e7;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+#contacts h4,
+#contacts p {
+  margin: 0 1.5rem;
+}
